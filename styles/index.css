@@ -1,6 +1,8 @@
 :root {
   --color-foreground: #111111;
   --color-background: #fff;
+
+  --c1: whitesmoke;
   
   --f1: 'Roboto';
   --f2: 'Spectral';

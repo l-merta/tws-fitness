@@ -57,18 +57,12 @@ body {
     max-width: 30rem;
   }
   .text {
-    max-width: 40rem;
+    width: 100%;
+    max-width: 24rem;
     display: flex;
     flex-direction: column;
     align-items: start;
     gap: 1.5rem;
-
-    h2 {
-      font: 400 2.0rem var(--f1);
-      margin: 0;
-      text-transform: uppercase;
-      letter-spacing: 0.3rem;
-    }
     p {
       opacity: 0.4;
       font: 400 1.2rem var(--f1);
@@ -76,7 +70,29 @@ body {
     }
   }
 }
+.trainers {
+  background-color: var(--c1);
+  padding: 10rem 2rem;
+}
 
+h2 {
+  font: 400 2.0rem var(--f1);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  text-align: center;
+
+  span {
+    font: 500 1.2rem var(--f1);
+    opacity: 0.4;
+    text-transform: none;
+    letter-spacing: 0;
+  }
+}
 .btn {
   background-color: transparent;
   font: 500 1.2rem var(--f1);
