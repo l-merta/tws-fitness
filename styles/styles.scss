@@ -103,6 +103,42 @@ body {
     }
   }
 }
+.contact {
+  padding: 10rem 2rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4.0rem;
+
+  .bg-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+  }
+  h2 {
+    color: var(--color-background);
+  }
+  .input-cont {
+    display: flex;
+    gap: 2.0rem;
+
+    input {
+      color: var(--color-background);
+      background-color: transparent;
+      font: 400 1.2rem var(--f1);
+      border: none;
+      border-bottom: 2px solid var(--color-background);
+      padding: 0.8rem 1.0rem;
+    }
+  }
+  .btn {
+    padding: 0.8rem 5rem;
+  }
+}
 
 h2 {
   font: 400 2.0rem var(--f1);
@@ -122,6 +158,13 @@ h2 {
     letter-spacing: 0;
   }
 }
+.copyright {
+  opacity: 0.4;
+  color: var(--color-background);
+  font: 400 1.2rem var(--f1);
+  text-align: center;
+  margin: -2.5rem 0;
+}
 .btn {
   background-color: transparent;
   font: 500 1.2rem var(--f1);
@@ -133,7 +176,7 @@ h2 {
 
   &.btn-1 {
     color: var(--color-background);
-    background-color: rgb(73, 46, 73);
+    background-color: rgb(39, 32, 53);
     transition: all 0.3s ease;
 
     &:hover {

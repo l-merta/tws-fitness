@@ -100,6 +100,42 @@ body {
   text-align: center;
 }
 
+.contact {
+  padding: 10rem 2rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+.contact .bg-img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  z-index: -1;
+}
+.contact h2 {
+  color: var(--color-background);
+}
+.contact .input-cont {
+  display: flex;
+  gap: 2rem;
+}
+.contact .input-cont input {
+  color: var(--color-background);
+  background-color: transparent;
+  font: 400 1.2rem var(--f1);
+  border: none;
+  border-bottom: 2px solid var(--color-background);
+  padding: 0.8rem 1rem;
+}
+.contact .btn {
+  padding: 0.8rem 5rem;
+}
+
 h2 {
   font: 400 2rem var(--f1);
   margin: 0;
@@ -118,6 +154,14 @@ h2 span {
   letter-spacing: 0;
 }
 
+.copyright {
+  opacity: 0.4;
+  color: var(--color-background);
+  font: 400 1.2rem var(--f1);
+  text-align: center;
+  margin: -2.5rem 0;
+}
+
 .btn {
   background-color: transparent;
   font: 500 1.2rem var(--f1);
@@ -129,7 +173,7 @@ h2 span {
 }
 .btn.btn-1 {
   color: var(--color-background);
-  background-color: rgb(73, 46, 73);
+  background-color: rgb(39, 32, 53);
   transition: all 0.3s ease;
 }
 .btn.btn-1:hover {
